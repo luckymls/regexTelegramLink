@@ -1,0 +1,14 @@
+def getChannelHashFromLink(link):
+
+    rgx = re.search(r"(?:(?:t\.me)|(?:telegram)\.(?:(?:me)|(?:dog)))\/(?:(?:(?:joinchat)\/(?P<hash>\S{20,}))|(?P<username>(?!joinchat)[^\r\n\t\f\v\/ ]{5,}))", link)
+    if rgx != None:
+        linkHash = rgx.group('hash')
+        linkUser = rgx.group('username')
+        if linkHash != None:
+            return ('private', linkHash)
+        elif linkUser != None:
+            return ('public', linkUser)
+        else:
+            return False    
+    else:
+        return False
