@@ -1,7 +1,7 @@
 # regexTelegramLink
 Regex to match telegram links
 
-Available telegram links
+AVAILABLE TELEGRAM LINKS
 
 t.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw
 
@@ -15,10 +15,10 @@ telegram.dog/joinchat/AAAAAE_0J9tfQFh4V7eTXw
 
 telegram.dog/username
 
-GROUP 0 (Hash)
+<b>GROUP 0 (Hash)</b>
 
 Contains hash. i.e. AAAAAE_0J9tfQFh4V7eTXw
 
-GROUP 1 (Username)
+<b>GROUP 1 (Username)</b>
 
 Contains username i.e. username
