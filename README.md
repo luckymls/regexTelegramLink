@@ -4,10 +4,15 @@ Regex to match telegram links
 Available telegram links
 
 t.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw
+
 t.me/username
+
 telegram.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw
+
 telegram.me/username
+
 telegram.dog/joinchat/AAAAAE_0J9tfQFh4V7eTXw
+
 telegram.dog/username
 
 GROUP 0 (Hash)
