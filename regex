@@ -1,1 +1,1 @@
-(?:(?:t\.me)|(?:telegram)\.(?:(?:me)|(?:dog)))\/(?:(?:(?:joinchat)\/(?P<hash>\S{8,}))|(?P<username>(?!joinchat)[^\r\n\t\f\v\/ ]{5,}))
+(?:(?:t\.me)|(?:telegram)\.(?:(?:me)|(?:dog)))\/(?:(?:(?:joinchat)\/(?P<hash>\S{20,}))|(?P<username>(?!joinchat)[^\r\n\t\f\v\/ ]{5,}))
