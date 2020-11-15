@@ -1,4 +1,3 @@
-# regexTelegramLink
 <h1>Regex to match telegram links</h1>
 
 <h2>AVAILABLE TELEGRAM LINKS</h2>
