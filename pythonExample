@@ -1,6 +1,6 @@
 def getChannelHashFromLink(link):
 
-    rgx = re.search(r"(?:(?:t\.me)|(?:telegram)\.(?:(?:me)|(?:dog)))\/(?:(?:(?:joinchat)\/(?P<hash>\S{20,}))|(?P<username>(?!joinchat)[^\r\n\t\f\v\/ ]{5,}))", link)
+    rgx = re.search(r"(?P<protocol>https?)?(?::\/\/)?(?:(?:t\.me)|(?:telegram)\.(?:(?:me)|(?:dog)))\/(?:(?:(?:joinchat)\/(?P<hash>[a-zA-Z]{1}[a-zA-Z0-9_-]{21,}))|(?P<username>(?!joinchat)[a-zA-Z]{1}[a-zA-Z0-9_]{4,}))", link)
     if rgx != None:
         linkHash = rgx.group('hash')
         linkUser = rgx.group('username')
