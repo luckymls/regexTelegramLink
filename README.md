@@ -1,24 +1,39 @@
 # regexTelegramLink
-Regex to match telegram links
+<h1>Regex to match telegram links</h1>
 
-AVAILABLE TELEGRAM LINKS
+<h2>AVAILABLE TELEGRAM LINKS</h2>
 
-t.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw
+<ul><li>t.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw</li>
 
-t.me/username
+<li>t.me/username</li>
 
-telegram.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw
+<li>telegram.me/joinchat/AAAAAE_0J9tfQFh4V7eTXw</li>
 
-telegram.me/username
+<li>telegram.me/username</li>
 
-telegram.dog/joinchat/AAAAAE_0J9tfQFh4V7eTXw
+<li>telegram.dog/joinchat/AAAAAE_0J9tfQFh4V7eTXw</li>
 
-telegram.dog/username
+<li>telegram.dog/username</li>
+</ul>
 
-<b>GROUP 0 (Hash)</b>
+<h3>SUPPORTED PROTOCOLS</h3>
 
-Contains hash. i.e. AAAAAE_0J9tfQFh4V7eTXw
+<ul>
+<li>https://</li>
 
-<b>GROUP 1 (Username)</b>
+<li>http://</li>
+</ul>
 
-Contains username i.e. username
+<h2>GROUP TYPES</h2>
+
+<h3>GROUP <i>protocol</i></h3>
+
+Contains <b>protocol</b> i.e. http or https
+
+<h3>GROUP <i>hash</i></h3>
+
+Contains <b>hash</b> i.e. AAAAAE_0J9tfQFh4V7eTXw
+
+<h3>GROUP <i>username</i></h3>
+
+Contains <b>username</b> i.e. @telegram
